@@ -89,7 +89,6 @@ nav {
 
 nav form {
     width: 70%;
-    /* background-color: rgb(64, 153, 207); */
     display: grid;
     grid-template-columns: 5fr 1fr;
     grid-gap: 4px;
