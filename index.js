@@ -28,7 +28,7 @@ try {
     updateDom(temp_c +'°', name, localtime, icon, text)
 
 } catch (error) {
-    alert('Location Not Found')
+    alert("Enter correct location")
 }
 }
 

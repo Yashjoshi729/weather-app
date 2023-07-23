@@ -19,7 +19,7 @@
     content: "";
     width: 100%;
     height: 100%;
-    background-image: url('/triangles-1430105_640.webp');
+    background-image: url(./tree-832079_1280.jpg);
      background-repeat: no-repeat;
     background-size: cover;
     background-position: center;    
@@ -30,14 +30,14 @@
 
 .weather {
     z-index: 2;
-    /* background-color: white; */
-    /* width: 30%;
-    height:22%; */
     color: white;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-shadow: 0px 0px 20px black; */
+    border-radius: 30px;
+    background-color: rgba(144, 138, 138, 0.35);
+    box-shadow: 10px 10px 20px rgb(11, 10, 10);
 }
 .weather>div{
     margin: 0.625rem;
@@ -75,12 +75,12 @@
 
 nav {
     height: 100px;
-    box-shadow: 0 0 45px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 45px black;
     border-radius: 0 0 100px 100px;
     position: absolute;
     top: 0%;
     width: 100%;
-    background-color: rgba(200, 199, 199, 0.075);
+    background-color: rgba(48, 48, 50, 0.45);
     display: flex;
     justify-content: center;
     align-items: center;
